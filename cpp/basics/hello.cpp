@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
- cout<<"hello world !";
+ cout<<"Hello,world!
+  welcome to C++.
+  I'm sathwika Manohar";
 }
 
