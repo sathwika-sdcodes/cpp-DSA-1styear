@@ -1,0 +1,17 @@
+#include<iostream>
+#include<cstdio>
+#include<iomanip>
+int main(){
+int a;
+long b;
+char ch='a';
+float c=334.23;
+double d=14049.30493;
+cin>>a>>b>>ch>>c>>d;
+cout<<a<<endl;
+cout<<b<<endl;
+cout<<ch<<endl;
+cout<<fixed<<setprecision(3)<<c<<endl;
+cout<<fixed<<setprecision(9)<<d<<endl;
+return 0;
+}
