@@ -1,0 +1,40 @@
+/* Program to find the largest of two numbers
+and check whether it is even or odd*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+
+    // Taking input
+    cout << "Enter the values of a and b: ";
+    cin >> a >> b;
+
+    // Checking which number is larger
+    if (a > b)
+    {
+        cout << "a is the largest number" << endl;
+
+        // Checking even or odd
+        if (a % 2 == 0)
+            cout << "a is an even number" << endl;
+        else
+            cout << "a is an odd number" << endl;
+    }
+    else
+    {
+        cout << "b is the largest number" << endl;
+
+        // Checking even or odd
+        if (b % 2 == 0)
+            cout << "b is an even number" << endl;
+        else
+            cout << "b is an odd number" << endl;
+    }
+
+    return 0;
+}
+
+
