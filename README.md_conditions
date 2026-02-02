@@ -1,0 +1,21 @@
+# Largest Number and Even/Odd Check (C++)
+
+## Description
+This program compares two integers and determines the largest number.
+It also checks whether the largest number is even or odd.
+
+## Concepts Used
+- if–else conditions
+- Nested if–else
+- Modulus operator (%)
+- Input/Output in C++
+
+## Sample Input
+enter the values of a and b: 8 7 
+## Sample output
+a is the largest number
+a is an even number 
+
+
+## Language
+- C++
